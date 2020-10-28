@@ -1,6 +1,12 @@
 const express = require("express")
+var compression = require('compression')
+var favicon = require('serve-favicon')
+var morgan = require('morgan')
 const app = express()
 
+morgan('tiny')
+app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))
+app.use(compression())
 app.use(express.static("public"))
 
 app.get("/", function (req, res) {

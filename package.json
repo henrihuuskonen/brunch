@@ -11,9 +11,12 @@
     "postinstall": "brunch build --production"
   },
   "dependencies": {
+    "compression": "^1.7.4",
+    "express": "4.17.1",
+    "morgan": "^1.10.0",
     "react": "^15.4",
     "react-dom": "^15.4",
-    "express": "4.17.1"
+    "serve-favicon": "^2.5.0"
   },
   "devDependencies": {
     "auto-reload-brunch": "^2",
