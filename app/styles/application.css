@@ -41,9 +41,7 @@ h1, p {
     margin-left: auto;
 }
 
-#hero {
-    height: 400px;
-}
+
 
 .content__row {
     display: flex;
@@ -81,6 +79,13 @@ h1, p {
 
 .title-container__paragraph {
     padding: 10px 0 0 0;
+}
+
+#hero {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #stats {
@@ -134,6 +139,16 @@ h1, p {
     border:1px solid black;
     border-radius:50%;
     right: 50px;
+    bottom: -150px;
+}
+
+.hero__image-container {
+    overflow: hidden;
+    height: 250px;
+}
+
+.hero__image {
+    width: 100%;
 }
 
 .socials__container {

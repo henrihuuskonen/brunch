@@ -11,7 +11,10 @@ export default class Hero extends React.Component {
           <div className="title-container__name--divider"/>
           <p className="title-container__paragraph">{this.props.paragraph}</p>
         </div>
-        <div className="hero__avatar-container"></div>
+        <div className="hero__image-container">
+          <img className="hero__image" src="https://t3.ftcdn.net/jpg/02/80/09/80/240_F_280098052_VGr2NfQI6jAXqy7KzBoswbY95yGtp1cB.jpg"/>
+        </div>
+        <div className="hero__avatar-container"/>
       </div>
     )
   }
