@@ -172,14 +172,12 @@ h1, p {
 }
 
 
-@media (max-width: 2000px) {
-    #bio-block {
-        display: none;
-    }
+#bio-block {
+    display: none;
+}
 
-    #bio-row {
-        margin-right: 50px;
-    }
+#bio-row {
+    margin-right: 50px;
 }
 
 @media (max-width: 1170px) {
