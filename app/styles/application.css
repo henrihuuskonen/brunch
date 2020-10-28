@@ -149,6 +149,7 @@ h1, p {
 
 .hero__image {
     width: 100%;
+    height: auto;
 }
 
 .socials__container {
