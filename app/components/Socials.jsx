@@ -8,10 +8,10 @@ export default class Socials extends React.Component {
         <p className="title-container__title">{this.props.title}</p>
         <div className="title-container__inner">
           <div className="socials__container">
-            <a className="socials__button">GitHub</a>
-            <a className="socials__button">LinkedIn</a>
-            <a className="socials__button">Facebook</a>
-            <a className="socials__button">Instagram</a>
+            <a className="socials__button" href="https://github.com/henrihuuskonen">GitHub</a>
+            <a className="socials__button" href="https://www.linkedin.com/in/henri-huuskonen-34850853/">LinkedIn</a>
+            <a className="socials__button" href="https://www.facebook.com/huuskonenhenri/">Facebook</a>
+            <a className="socials__button" href="https://www.instagram.com/huuskonen/">Instagram</a>
           </div>
         </div>
       </div>

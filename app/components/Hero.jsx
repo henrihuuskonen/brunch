@@ -12,9 +12,12 @@ export default class Hero extends React.Component {
           <p className="title-container__paragraph">{this.props.paragraph}</p>
         </div>
         <div className="hero__image-container">
-          <img className="hero__image" alt="Wireframe background wallpaper" src="https://t3.ftcdn.net/jpg/02/80/09/80/240_F_280098052_VGr2NfQI6jAXqy7KzBoswbY95yGtp1cB.jpg"/>
+          <img className="hero__image" alt="Wireframe background wallpaper"
+            src="https://t3.ftcdn.net/jpg/02/80/09/80/240_F_280098052_VGr2NfQI6jAXqy7KzBoswbY95yGtp1cB.jpg"/>
         </div>
-        <div className="hero__avatar-container"/>
+        <div className="hero__avatar-container">
+          <img className="hero__avatar--image" src="https://www.dropbox.com/s/ysyoqnfqtfhqvjh/henrihuuskonen.png?raw=1"/>
+        </div>
       </div>
     )
   }

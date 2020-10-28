@@ -1,21 +1,16 @@
-# Brunch + React + Babel/ES6
+# Home page created with React + brunch
 
-This is a modern JS skeleton with React for [Brunch](http://brunch.io).
+Aim is to build this exact page using different tech stacks and bundlers.
+This one is the first, and the most straight forward.
 
 ## Installation
 
-Clone this repo manually or use `brunch new dir -s brunch/with-react`
+Clone this repo and run `npm install`
 
-## Getting started
+## Development
 
-* Install (if you don't have them):
-    * [Node.js](http://nodejs.org): `brew install node` on OS X
-    * [Brunch](http://brunch.io): `npm install -g brunch`
-    * Brunch plugins and app dependencies: `npm install`
-* Run:
-    * `npm start` — watches the project with continuous rebuild. This will also launch HTTP server with [pushState](https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Manipulating_the_browser_history).
-    * `npm run build` — builds minified project for production
-* Learn:
-    * `public/` dir is fully auto-generated and served by HTTP server.  Write your code in `app/` dir.
-    * Place static files you want to be copied from `app/assets/` to `public/`.
-    * [Brunch site](http://brunch.io), [Getting started guide](https://github.com/brunch/brunch-guide#readme)
+`npm run start`
+
+Server will reload on any changes on save
+
+

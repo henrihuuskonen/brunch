@@ -102,14 +102,25 @@ h1, p {
 }
 
 .hero__avatar-container {
+    display: flex;
+    align-items: flex-end;
     position: absolute;
-    width: 400px;
-    height: 400px;
-    background-color: #fff;
-    border: 1px solid black;
+    width: 350px;
+    height: 350px;
+    background-color: black;
     border-radius: 50%;
     right: 50px;
     bottom: -150px;
+    overflow: hidden;
+}
+
+.hero__avatar--image {
+    height: auto;
+    width: 100%;
+}
+
+.test  {
+    position: relative;
 }
 
 .hero__image-container {
@@ -132,6 +143,8 @@ h1, p {
     margin: 0.5rem;
     border: 1px solid black;
     transition: 0.3s;
+    text-decoration: none;
+    color: black;
 }
 
 .socials__button:hover {
@@ -186,7 +199,7 @@ h1, p {
     }
 
     .hero__avatar-container {
-        right: 10px;
+        right: 30px;
     }
 
     #bio-row {
@@ -196,7 +209,7 @@ h1, p {
 
 @media (max-width: 992px) {
     .hero__avatar-container {
-        right: 30px;
+        right: 70px;
     }
 
     .socials__button {
@@ -275,5 +288,7 @@ h1, p {
         margin: 0 0 5px 0;
     }
 }
+
+
 
 
