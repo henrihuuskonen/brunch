@@ -1,11 +1,11 @@
-var express = require('express'),
-    path = require('path'),
-    app = express();
+const express = require("express")
+const app = express()
 
-app.set('port', 3000);
+app.use(express.static("public"))
 
-app.use(express.static(path.join(__dirname, 'public')));
+app.get("/", function (req, res) {
+    res.send("<h1>Hello World!</h1>")
+})
 
-var server = app.listen(app.get('port'), function () {
-    console.log('The server is running on http://localhost:' + app.get('port'));
-});
+app.listen(process.env.PORT || 3000,
+    () => console.log("Server is running..."));
