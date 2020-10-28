@@ -105,13 +105,13 @@ h1, p {
     display: flex;
     align-items: flex-end;
     position: absolute;
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 250px;
     background-color: black;
-    border-radius: 50%;
     right: 50px;
     bottom: -150px;
     overflow: hidden;
+    box-shadow: -10px -10px #757575;
 }
 
 .hero__avatar--image {
@@ -119,13 +119,9 @@ h1, p {
     width: 100%;
 }
 
-.test  {
-    position: relative;
-}
-
 .hero__image-container {
     overflow: hidden;
-    height: 250px;
+    height: auto;
 }
 
 .hero__image {
