@@ -1,0 +1,162 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+@media (min-width: 576px) {
+    #content {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    #content {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    #content {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1170px) {
+    #content {
+        max-width: 1140px;
+    }
+}
+
+h1, p {
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+    margin-inline-start: 0 !important;
+    margin-inline-end: 0 !important;
+}
+
+#content {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#hero {
+    height: 400px;
+}
+
+.content__row {
+    display: flex;
+    position: relative;
+}
+
+.title-container {
+    margin-top: 20px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.title-container__inner {
+    padding: 1rem;
+}
+
+.title-container__title {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    margin: 0;
+    background: white;
+    padding: 0 10px 0 10px;
+    font-weight: bold;
+}
+
+.title-container__name--divider {
+    width: 320px;
+    border-bottom: 1px solid black;
+}
+
+.title-container__name {
+    padding: 20px 20px 0 20px;
+}
+
+.title-container__paragraph {
+    padding: 10px 0 0 0;
+}
+
+#stats {
+    margin-right: 20px;
+}
+
+#bio {
+    margin-right: 20px;
+    width: 350px;
+}
+
+#socials {
+    align-self: flex-end;
+    margin: auto auto 0;
+}
+
+#projects {
+    height: 500px;
+}
+
+#footer {
+    height: 100px;
+}
+
+.stats__row {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+
+.stats__text {
+    font-size: 14px;
+    color: gray;
+    padding: 10px 10px 5px 10px;
+}
+
+.bio__text-container {
+    padding: 0;
+}
+
+.black {
+    color: black;
+}
+
+.hero__avatar-container {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color:#fff;
+    border:1px solid black;
+    border-radius:50%;
+    right: 50px;
+}
+
+.socials__container {
+    display: flex;
+    padding: 0.5rem 0 0 0;
+}
+
+.socials__button {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border: 1px solid black;
+    transition: 0.3s;
+}
+
+.socials__button:hover {
+    background: darkgray;
+    color: white;
+    cursor: pointer;
+}
+
+.footer__text {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}

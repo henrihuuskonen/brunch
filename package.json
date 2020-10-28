@@ -1,0 +1,31 @@
+{
+  "name": "brunch-app",
+  "description": "Brunch.io application",
+  "private": true,
+  "author": "Brunch",
+  "version": "0.0.1",
+  "repository": "",
+  "scripts": {
+    "start": "brunch watch --server",
+    "build": "brunch build --production",
+    "postinstall": "brunch build --production"
+  },
+  "dependencies": {
+    "react": "^15.4",
+    "react-dom": "^15.4",
+    "statik": "1.4.6"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^2",
+    "babel-brunch": "~6.0",
+    "babel-preset-latest": "^6",
+    "babel-preset-react": "~6.22",
+    "brunch": "^2",
+    "clean-css-brunch": "^2",
+    "eslint": "^7.12.1",
+    "eslint-plugin-html": "^6.1.0",
+    "eslint-plugin-react": "^7.21.5",
+    "prop-types": "^15.7.2",
+    "uglify-js-brunch": "^2"
+  }
+}
