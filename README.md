@@ -1,4 +1,6 @@
-# Home page created with React + brunch
+# Home page created with React + brunch + express
+
+https://brunch-huuskonen.herokuapp.com/
 
 Aim is to build this exact page using different tech stacks and bundlers.
 This one is the first, and the most straight forward.
