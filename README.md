@@ -1,9 +1,15 @@
-# Home page created with React + brunch + express
+# Personal webpage created with React + brunch + express
 
 https://brunch-huuskonen.herokuapp.com/
 
-Aim is to build this exact page using different tech stacks and bundlers.
-This one is the first, and the most straight forward.
+Aim is to build my personal website incrementally testing different bundlers.
+
+This is the first version.
+
+v2: React + typescript + styled-components + parcel + express  
+https://parcel-huuskonen.herokuapp.com/  
+https://github.com/henrihuuskonen/parcel/ 
+ 
 
 ## Installation
 
